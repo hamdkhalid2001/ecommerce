@@ -3,6 +3,7 @@ import ProductCard from '../components/ProductCard.vue'
 import { onMounted, ref } from 'vue'
 export default {
     setup(){
+        console.log("Just checking git")
         let data = ref()
         let error = ref()
         let categories = ref([])
